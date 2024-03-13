@@ -15,6 +15,7 @@ export type FieldProps = {
   isDisabled?: boolean
   error?: boolean
   message?: string
+  valueList?: any[];
 }
 
 export type VLProSetValueType<T> = (
